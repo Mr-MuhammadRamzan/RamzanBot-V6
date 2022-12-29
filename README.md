@@ -11,12 +11,6 @@ Thanks️ to all my friends who helped me to compile this script.
 
 ---
 
-
----
-
-
----
-
 ## ```Connect With Me```
 <p align="center">
 <a href="https://wa.me/923437876240"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -25,11 +19,11 @@ Thanks️ to all my friends who helped me to compile this script.
 </p>
 
 
-# Setup For Deployment 👇
+## ```Setup for Deployment```
 
 - FORK THE REPOSITORY [Here](https://github.com/M-Ramzan-Shakir/RamzanBot/fork)
 
-## `Scan QR Code For Session`
+## ```Run and Deploy```
 [![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
  ` BUILDPACKS`
