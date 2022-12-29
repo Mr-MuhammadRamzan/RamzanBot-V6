@@ -1989,7 +1989,7 @@ await XeonBotInc.sendMessage(m.chat,{
 break
 case 'ytmp3': case 'ytaudio': //credit: Ray Senpai ❤️ https://github.com/EternityBots/Nezuko
 const xeonaudp3 = require('./lib/ytdl2')
-if (args.length < 1 || !isUrl(text) || !xeonaudp3.isYTUrl(text)) throw `Where's the yt link?\nExample: ${prefix + command} https://youtu.be/Ahrjj2sjxWg`
+if (args.length < 1 || !isUrl(text) || !xeonaudp3.isYTUrl(text)) throw `Where's the yt link?\nExample: ${prefix + command} https://youtube.com/shorts/YQf-vMjDuKY?feature=share`
 const audio=await xeonaudp3.mp3(text)
 await XeonBotInc.sendMessage(m.chat,{
     audio: fs.readFileSync(audio.path),
@@ -2009,7 +2009,7 @@ await fs.unlinkSync(audio.path)
 break
 	    case 'ytmp3xx': case 'ytaudioxx': {
                 let { yta } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+                if (!text) throw `Example : ${prefix + command} https://youtu.be/Ahrjj2sjxWg 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
@@ -2019,7 +2019,7 @@ break
             break
 case 'ytmp4': case 'ytvideo': //credit: Ray Senpai ❤️ https://github.com/EternityBots/Nezuko
 const xeonvidoh = require('./lib/ytdl2')
-if (args.length < 1 || !isUrl(text) || !xeonvidoh.isYTUrl(text)) throw `Where is the link??\n\nExample : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+if (args.length < 1 || !isUrl(text) || !xeonvidoh.isYTUrl(text)) throw `Where is the link??\n\nExample : ${prefix + command} https://youtu.be/Ahrjj2sjxWg 128kbps`
 const vid=await xeonvidoh.mp4(text)
 const ytc=`
 *${themeemoji}Tittle:* ${vid.title}
@@ -2033,7 +2033,7 @@ await XeonBotInc.sendMessage(m.chat,{
 break
             case 'ytmp4xx': case 'ytvideoxx': {
                 let { ytv } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
+                if (!text) throw `Example : ${prefix + command} https://youtu.be/Ahrjj2sjxWg 360p`
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Over Limit '+util.format(media))
@@ -6292,9 +6292,9 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*「 ${global.botname} 」*\n\nFacebook: ${global.botscript}\nYouTube: ${global.websitex}\n\nDont forget to Follow & Subscribe`
+teks = `*「 ${global.botname} 」*\n\nFacebook: ${global.botscript\nYouTube: ${global.websitex}\n\nDo nott forget to Follow & Subscribe `
 let buttons = [
-{buttonId: `owner`, buttonText: {displayText: 'Owner 🌺'}, type: 1}
+{buttonId: `owner`, buttonText: {displayText: 'Owner'}, type: 1}
 ]
 let buttonMessage = {
 image: {url: `https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg`},
@@ -7578,7 +7578,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 										"rowId": `${prefix}soundmenu`
 									},
 									{
-										"title": "Download Menu️",
+										"title": "Download Menu",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
@@ -7638,17 +7638,17 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 										"rowId": `${prefix}gamemenu`
 									},
 										{
-											"title": "Convert Menu️",
+											"title": "Convert Menu",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu️",
+											"title": "Database Menu",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Other Menu 🐸",
+										"title": "Other Menu ",
 										"description": "Displays The List Miscellaneous Features",
 										"rowId": `${prefix}othermenu`
 									     },
@@ -7663,7 +7663,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								"title": "Chat With Fellow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu",
+										"title": "Anonymous Chat Menu️",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
@@ -7673,7 +7673,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 								"title": "Credit ©️",
 								"rows": [
 									{
-										"title": "Thanks to MUHAMMAD RAMZAN️",
+										"title": "Thanks To️",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
@@ -7682,7 +7682,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 						]
 const listMessage = {
   text: "Please choose the menu",
-  footer: `${botname}\nFacebook: ${websitex}\nYouTube: ${botscript}`,
+  footer: `${botname}\nFacebook: ${botscript}\nYouTube: ${websitex}`,
   title: `Hi 👋 ${pushname}`,
   buttonText: "Menu",
   sections
@@ -8426,7 +8426,7 @@ break
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'Script'}, type: 1},
   {buttonId: 'donate', buttonText: {displayText: 'Donate'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: 'Owner'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: 'Owner ??'}, type: 1}
 ]
 const buttonMessage = {
     image: unicorn,
