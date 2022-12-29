@@ -17,21 +17,21 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.owner = ['923437876240'] //ur owner number
 global.ownername = "Muhammad Ramzan" //ur owner name
-global.ytname = "M Ramzan Shakir" //ur yt chanel name
+global.ytname = "RamzanGraphy" //ur yt chanel name
 global.socialm = "@M_Ramzan_Shakir" //ur github or insta name
 global.location = "Chiniot, Punjab, Pakistan" //ur location
 
 //bot bomdy 
 global.ownernomer = "923437876240" //ur number
 global.premium = ['923437876240'] //ur premium number
-global.botname = 'Muhammad Ramzam Shakir' //ur bot name
-global.linkz = "https://api.whatsapp.com/send?phone=+923437876240" //your theme url which will be displayed on whatsapp
+global.botname = 'MUHAMMAD RAMZAN' //ur bot name
+global.linkz = "hhttps://api.whatsapp.com/send?phone=+923437876240" //your theme url which will be displayed on whatsapp
 global.websitex = "https://youtube.com/@M_Ramzan_Shakir" //ur website to be displayed
-global.botscript = 'https://facebook.com/MuhammadRamzan228' //script link
-global.themeemoji = "👉" //ur theme emoji
+global.botscript = 'https://www.facebook.com/MuhammadRamzan228?mibextid=ZbWKwL' //script link
+global.themeemoji = "💠" //ur theme emoji
 global.packname = "Muhammad Ramzan" //ur sticker watermark packname
-global.author = "03437876240" //ur sticker watermark author
-global.wm = "Muhammad Ramzan Shakir" //ur watermark
+global.author = "923437876240" //ur sticker watermark author
+global.wm = "MUHAMMAD RAMZAN" //ur watermark
 
 // Other
 global.sessionName = 'session'
@@ -48,7 +48,7 @@ global.mess = {
     group: 'Features Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This feature could be used by bot only',
-    wait: 'In process...',
+    wait: 'Processing...',
     linkm: 'Where is the link?',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
     nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
