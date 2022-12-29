@@ -19,7 +19,7 @@ Thanks️ to all my friends who helped me to compile this script.
 </p>
 
 
-## ```Setup for Deployment```
+## ```Fork Repository```
 
 - FORK THE REPOSITORY [Here](https://github.com/M-Ramzan-Shakir/RamzanBot/fork)
 
